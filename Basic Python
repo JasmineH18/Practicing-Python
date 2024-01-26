@@ -1,1 +1,51 @@
+I've been practicing Python in Tryhackme and will do this project on Ubuntu virtual machine. THM room is called Python Basics. I mainly use virtualbox for all my virtual machines. I will follow along the Python basic from Tryhackme, but will not use the examples they have.
 
+Resources Used:
+-https://www.virtualbox.org/wiki/Downloads
+-https://ubuntu.com/#download
+-https://www.python.org/downloads/
+-https://tryhackme.com/room/pythonbasics
+
+Environments Used:
+-Ubuntu in Virtualbox
+
+Started Ubuntu virtual machine and open a terminal. Type 'python3' to open python. Screenshots are provided.
+
+Open Python https://imgur.com/UCgWic8
+
+
+1. Print 'Hello World'
+
+Print: Output the text 
+Note: Make sure to add quotation marks!
+Example 1: Typed print("Hello World") and it should show 'Hello World'
+Example 2: Typed print("It's a rainy day") and it should show 'It's a rainy day'
+https://imgur.com/cRAs0xQ
+https://imgur.com/gDPT2wt
+
+2. Mathematical Operators
+
+We can code a calculator to use mathematical operators and comparison operators. 
+Mathematical Operators: 
+-Additon (+)
+-Subtraction (-)
+-Mulitiplication (*)
+-Division (/)
+-Modulus (%)
+-Exponents (**)
+
+Comparison Operators: 
+-Greater Than (>)
+-Less Than (<)
+-Equal To (==)
+-Not Equal To (!=)
+-Greater Than or Equal to (>=)
+-Less Than or Equal (<=)
+
+Mathematical Operators Examples:
+Example 1: Typed print("100+50=150") and it should show 100+50=150. Screenshot: https://imgur.com/6FeVcB0
+Example 2: Typed print("620-240=380") and it should show 620-240=380. Screenshot: https://imgur.com/axouYCa
+Example 3: Typed print("78*2=156") and it should show 78*2=156. Screenshot: https://imgur.com/sR3sYnn
+Example 4: Typed print("100/5=20") and it should show 100/5=20. Screenshot: https://imgur.com/TxVs2up
+Example 5: Typed print("30%6=0") and it should show 30%6=0. Screenshot: https://imgur.com/tXTVUza
+Example 6: Typed print("8**2=64") and it should show 8**2=64. Screenshot: https://imgur.com/KqIvhsh
