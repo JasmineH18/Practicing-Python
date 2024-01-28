@@ -49,3 +49,27 @@ Example 3: Typed print("78*2=156") and it should show 78*2=156. Screenshot: http
 Example 4: Typed print("100/5=20") and it should show 100/5=20. Screenshot: https://imgur.com/TxVs2up
 Example 5: Typed print("30%6=0") and it should show 30%6=0. Screenshot: https://imgur.com/tXTVUza
 Example 6: Typed print("8**2=64") and it should show 8**2=64. Screenshot: https://imgur.com/KqIvhsh
+
+Comparison Operators:
+Typed b = 24, hit space, and typed r = 25. This will tell python what the letter associate with the number. It should look like this below. Screenshot: https://imgur.com/wfjLdwT
+>>> b = 24
+>>> r = 25
+>>> print(b > r)
+False
+>>> print(b < r)
+True
+>>> print(b == r)
+False
+>>> print(b != r)
+True
+>>> print(b >= r)
+False
+>>> print(b <= r)
+True
+
+3. 
+
+
+
+
+
