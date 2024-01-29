@@ -42,13 +42,13 @@ Comparison Operators:
 -Greater Than or Equal to (>=)
 -Less Than or Equal (<=)
 
-Mathematical Operators Examples:
-Example 1: Typed print("100+50=150") and it should show 100+50=150. Screenshot: https://imgur.com/6FeVcB0
-Example 2: Typed print("620-240=380") and it should show 620-240=380. Screenshot: https://imgur.com/axouYCa
-Example 3: Typed print("78*2=156") and it should show 78*2=156. Screenshot: https://imgur.com/sR3sYnn
-Example 4: Typed print("100/5=20") and it should show 100/5=20. Screenshot: https://imgur.com/TxVs2up
-Example 5: Typed print("30%6=0") and it should show 30%6=0. Screenshot: https://imgur.com/tXTVUza
-Example 6: Typed print("8**2=64") and it should show 8**2=64. Screenshot: https://imgur.com/KqIvhsh
+Mathematical Operators Examples: Screenshot https://imgur.com/qeFretg
+Example 1: Typed >>> print(100+50) and it should show 150 
+Example 2: Typed >>> print(620-240) and it should show 380  
+Example 3: Typed >>> print(78*2) and it should show 156  
+Example 4: Typed >>> print(100/5) and it should show 20.0  
+Example 5: Typed >>> print(30%6) and it should show 0  
+Example 6: Typed >>> print(8**2) and it should show 64  
 
 Comparison Operators:
 Typed b = 24, hit space, and typed r = 25. This will tell python what the letter associate with the number. It should look like this below. Screenshot: https://imgur.com/wfjLdwT
