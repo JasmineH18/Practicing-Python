@@ -88,6 +88,11 @@ Variable Examples: Screenshot https://imgur.com/hmZpBzw
 
 Data Types Example: 
 
+String: https://imgur.com/9scOz2Y
+>>> food = "steak"
+>>> print(f"My favorite food is {food}")
+My favorite food is steak
+
 String Concatenation: https://imgur.com/dXxcaN3
 >>> age = 40
 >>> print("You will be " + str(age) + " years old tomorrow")
@@ -112,9 +117,18 @@ Float: https://imgur.com/yVfNcRi
 >>> print(f"The price is ${price} for your groceries")
 The price is $100.99 for your groceries
 
-Boolean: 
->>>
->>>
+Boolean: https://imgur.com/9Njk80o
+>>> running = True
+>>> print(f"Is the Valorant game running: {running}")
+Is the Valorant game running
+
+list: https://imgur.com/VxGYsPT
+>>> list1 = ["red", "blue", "black"]
+>>> list2 = ["yellow", "orange", "grey"]
+>>> print(list2)
+['yellow', 'orange', 'grey']
+
+
 
 
 
