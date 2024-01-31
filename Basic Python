@@ -5,6 +5,7 @@ Resources Used:
 -https://ubuntu.com/#download
 -https://www.python.org/downloads/
 -https://tryhackme.com/room/pythonbasics
+-Bro Code Data Types https://www.youtube.com/watch?v=LKFrQXaoSMQ
 
 Environments Used:
 -Ubuntu in Virtualbox
@@ -50,7 +51,7 @@ Example 4: Typed >>> print(100/5) and it should show 20.0
 Example 5: Typed >>> print(30%6) and it should show 0  
 Example 6: Typed >>> print(8**2) and it should show 64  
 
-Comparison Operators:
+Comparison Operators Examples:
 Typed b = 24, hit space, and typed r = 25. This will tell python what the letter associate with the number. It should look like this below. Screenshot: https://imgur.com/wfjLdwT
 >>> b = 24
 >>> r = 25
@@ -68,8 +69,52 @@ False
 True
 
 3. Variable and Data Types
+Variables allow you to store and update data in a computer program. You have a variable name and store data to that name. Data Types is the type of data being stored in a variable.
+>>> Food = "hot dog"
+>>> Money = 24000
 
+Data Types:
+String - Used for combinations of characters, such as letters or symbols
+Integer - Whole numbers
+Float - Numbers that contain decimal points or for fractions
+Boolean - Used for data that is restricted to True or False options
+List - Series of different data types stored in a collection
 
+Variable Examples: Screenshot https://imgur.com/hmZpBzw
+>>> size = 9
+>>> size = size + 1
+>>> print(size)
+10
+
+Data Types Example: 
+
+String Concatenation: https://imgur.com/dXxcaN3
+>>> age = 40
+>>> print("You will be " + str(age) + " years old tomorrow")
+You will be 40 years old tomorrow
+
+other separate arguments: https://imgur.com/NFJ1TSr
+>>> age = 40
+>>> print("You will be", age, "years old tomorrow")
+You will be 40 years old tomorrow
+
+>>> age = 40
+>>> print(f"You will be {age} years old tomorrow")
+You will be 40 years old tomorrow
+
+Integer: https://imgur.com/aAWQm1A
+>>> players = 10
+>>> print(f"There are {players} players in the basketball game")
+There are 10 players in the basketball game
+
+Float: https://imgur.com/yVfNcRi
+>>> price = 100.99
+>>> print(f"The price is ${price} for your groceries")
+The price is $100.99 for your groceries
+
+Boolean: 
+>>>
+>>>
 
 
 
