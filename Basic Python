@@ -5,12 +5,13 @@ Resources Used:
 -https://ubuntu.com/#download
 -https://www.python.org/downloads/
 -https://tryhackme.com/room/pythonbasics
+-https://code.visualstudio.com/
 -Bro Code Data Types https://www.youtube.com/watch?v=LKFrQXaoSMQ
 
 Environments Used:
 -Ubuntu in Virtualbox
 
-Started Ubuntu virtual machine and open a terminal. Type 'python3' to open python. Screenshots are provided.
+Started Ubuntu virtual machine and open a terminal. Type 'python3' to open python. Screenshots are provided. Sometimes I'll also use VS Code Python3 or THM virtual Machine.
 
 Open Python https://imgur.com/UCgWic8
 
