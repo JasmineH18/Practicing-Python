@@ -1,4 +1,4 @@
-I've been practicing Python in Tryhackme and will do this project on Ubuntu virtual machine. THM room is called Python Basics. I mainly use virtualbox for all my virtual machines. I will follow along the Python basic from Tryhackme, but will not use the examples they have.
+I've been practicing Python in Tryhackme and will do this project on Ubuntu/THM virtual machine or VS Code. THM room is called Python Basics. I mainly use virtualbox for all my virtual machines. I will follow along the Python basic from Tryhackme, but will not use the examples they have.
 
 Resources Used:
 -https://www.virtualbox.org/wiki/Downloads
@@ -10,6 +10,7 @@ Resources Used:
 
 Environments Used:
 -Ubuntu in Virtualbox
+-VS Code
 
 Started Ubuntu virtual machine and open a terminal. Type 'python3' to open python. Screenshots are provided. Sometimes I'll also use VS Code Python3 or THM virtual Machine.
 
@@ -128,6 +129,63 @@ list: https://imgur.com/VxGYsPT
 >>> list2 = ["yellow", "orange", "grey"]
 >>> print(list2)
 ['yellow', 'orange', 'grey']
+
+4. Logical and Boolean Operators
+Logical Operators are used in conditional statements such as if statements. Boolean operators are used to connect and compare relationships between statements. Like an if statement, conditions can be true or false.
+
+Logical operation and operator
+Equivalence: ==
+Less than: <
+Less than or equal to: <=
+Greater than: >
+Greater than or equal to: >=
+
+Boolean operation and operator
+Both conditions must be true for the statement to be true: 'AND'
+Only one condition of the statement needs to be true: 'OR'
+If a condition is the opposite of an argument: 'NOT'
+
+Example 1:
+temp = 60
+if temp > 5 and temp < 100:
+    print("The temperature is good")
+else:
+    print("The temperature is bad")
+
+The output would show: The temperature is good
+Screenshot: https://imgur.com/LpdFFXL
+
+Example 2:
+temp = 60
+if temp <= 0 or temp >= 50:
+    print("The temperature is bad")
+else:
+    print("The temperature is good")
+
+The output would show: The temperature is bad
+Screenshot: https://imgur.com/r4ySMho
+
+Example 3: 
+temp = 60
+if temp <= 0 or temp >= 50:
+    print("The temperature is bad")
+else:
+    print("The temperature is good")
+
+if sunny:
+    print("It is sunny outside")
+else:
+    print("It is cloudy outside")
+
+The output would show: 
+The temperature is bad
+It is sunny outside
+Screenshot: https://imgur.com/4AN53kL
+
+
+
+
+
 
 
 
