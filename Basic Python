@@ -26,6 +26,7 @@ Example 2: Typed print("It's a rainy day") and it should show 'It's a rainy day'
 https://imgur.com/cRAs0xQ
 https://imgur.com/gDPT2wt
 
+
 2. Mathematical Operators
 
 We can code a calculator to use mathematical operators and comparison operators. 
@@ -69,6 +70,7 @@ True
 False
 >>> print(b <= r)
 True
+
 
 3. Variable and Data Types
 Variables allow you to store and update data in a computer program. You have a variable name and store data to that name. Data Types is the type of data being stored in a variable.
@@ -130,6 +132,7 @@ list: https://imgur.com/VxGYsPT
 >>> print(list2)
 ['yellow', 'orange', 'grey']
 
+
 4. Logical and Boolean Operators
 Logical Operators are used in conditional statements such as if statements. Boolean operators are used to connect and compare relationships between statements. Like an if statement, conditions can be true or false.
 
@@ -183,9 +186,22 @@ It is sunny outside
 Screenshot: https://imgur.com/4AN53kL
 
 
+5. Shipping Project
+- If a customer spends over $60, they get free shipping.
+- If a customer spends < $60, the shipping cost is $1.30 per kg of the baskets weight.
 
+Print the customers total basket cost (including shipping).
 
+customer_basket_cost = 50
+customer_basket_weight = 30
+shipping_cost = 1.3
 
+if customer_basket_cost > 60:
+  print("free shipping")
+else:
+  print(customer_basket_cost + customer_basket_weight * shipping_cost)
+
+Result: 89.0
 
 
 
