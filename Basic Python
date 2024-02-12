@@ -263,6 +263,24 @@ Output:
 9
 
 
-7. Bitcoin Project: Introduction to Functions, screenshot
+7. Bitcoin Project: Introduction to Functions, screenshot https://imgur.com/j67EPS5
+Function is a block of code that can be called at different places in your program.
 
+- Create a function to convert Bitcoin to USD.
+- If your Bitcoin falls below $30,000, print a message.
 
+investment_in_bitcoin = 1.0
+bitcoin_to_usd = 15000
+
+def bitcoinToUSD(bitcoin_amount, bitcoin_value_usd):
+  usd_value = 1.0 * bitcoin_to_usd
+  return usd_value
+
+investment_in_usd = bitcoinToUSD(investment_in_bitcoin, bitcoin_to_usd)
+if investment_in_usd <= bitcoin_to_usd:
+  print("Investment below $15,000! SELL!")
+else:
+  print("Investment above $15,000")
+
+Output:
+Investment below $15,000! SELL!
