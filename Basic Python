@@ -284,3 +284,21 @@ else:
 
 Output:
 Investment below $15,000! SELL!
+
+
+8. Files: Screenshot https://imgur.com/HObK8SY
+You can read and write files in Python. You can open, create and write files, etc.
+
+I created a file in a terminal in Unbuntu virtual Machine. Opened a terminal > Typed 'touch Secret' > Opened the file and typed 'You got me! Happy Monday'. Screenshot: https://imgur.com/DdZaX9s, https://imgur.com/mI1lil2
+
+Example 1: Screenshot https://imgur.com/NNVFw9d
+>>> f = open("secret", "r")
+>>> print(f.read())
+You got me! Happy Monday!
+
+Example 2: 
+
+
+
+
+
