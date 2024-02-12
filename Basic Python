@@ -186,7 +186,7 @@ It is sunny outside
 Screenshot: https://imgur.com/4AN53kL
 
 
-5. Shipping Project: Screenshot https://imgur.com/7lq4EQF
+5. Shipping Project: Introduction to If Statements, screenshot https://imgur.com/7lq4EQF
 - If a customer spends over $60, they get free shipping.
 - If a customer spends < $60, the shipping cost is $1.30 per kg of the baskets weight.
 
@@ -204,7 +204,65 @@ else:
 Result: 89.0
 
 
+6. Loops
+loops allow programs to iterate and perform actions a number of times. There are two types of loops, for and while loops.
+
+While Loops: 
+Execute some code while some condition remain true.
+
+Example: Screenshot https://imgur.com/YV1bj5O
+r = 1 
+while r <= 15:
+    print(r)
+    r = r + 1
+
+Output:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+For Loops:
+Execute a block of code a fixed number of times.
+
+Example 1: Screenshot https://imgur.com/ZrpqpaB
+Pokemon = ["Ash", "May", "Pikachu"]
+for Poke in Pokemon:
+    print(Poke)
+
+Output:
+Ash
+May
+Pikachu
+
+Example 2: Screenshot https://imgur.com/KtZM5q7
+for q in range(10):
+  print(q)
+
+Output:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
 
 
+7. Bitcoin Project: Introduction to Functions, screenshot
 
 
