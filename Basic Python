@@ -315,3 +315,18 @@ In the New.py file
 It will create the file named 'Deadpool.py' and write "I bet you wondering how I got Wolverine back!" message in the Deadpool.py file.
 
 
+9. Imports
+"In Python, we can import libraries, which are a collection of files that contain functions. Think of importing a library as importing functions you can use that have been already written for you."
+
+Example:
+1  import datetime
+2  current_time = datetime.datetime.now()
+3  print(current_time)
+
+Output:
+2024-02-13 09:59:29.232559
+
+
+
+
+
