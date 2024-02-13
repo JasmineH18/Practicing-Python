@@ -296,9 +296,22 @@ Example 1: Screenshot https://imgur.com/NNVFw9d
 >>> print(f.read())
 You got me! Happy Monday!
 
-Example 2: 
+Example 2: Screenshot https://imgur.com/ZlUQ9Ak, https://imgur.com/ChFIk7J
+Created two .py files named New.py and Surprise.py
 
+In the New.py file
+1  f = open("Surprise.py", "a")
+2  f.write("Welcome to the party!")
+3  f.close()
 
+It will show "Welcome to the party!" message in the Surprise.py file.
 
+Example 3: Screenshot https://imgur.com/85YP2Of, https://imgur.com/8CfyTVZ
+In the New.py file
+1  f = open("Deadpool.py", "w")
+2  f.write("I bet you wondering how I got Wolverine back!")
+3  f.close()
+
+It will create the file named 'Deadpool.py' and write "I bet you wondering how I got Wolverine back!" message in the Deadpool.py file.
 
 
