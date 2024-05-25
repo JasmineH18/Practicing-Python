@@ -124,7 +124,7 @@ The price is $100.99 for your groceries
 Boolean: https://imgur.com/9Njk80o
 >>> running = True
 >>> print(f"Is the Valorant game running: {running}")
-Is the Valorant game running
+Is the Valorant game running: True
 
 list: https://imgur.com/VxGYsPT
 >>> list1 = ["red", "blue", "black"]
