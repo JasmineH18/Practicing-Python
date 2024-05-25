@@ -170,6 +170,7 @@ Screenshot: https://imgur.com/r4ySMho
 
 Example 3: 
 temp = 60
+sunny = True
 if temp <= 0 or temp >= 50:
     print("The temperature is bad")
 else:
