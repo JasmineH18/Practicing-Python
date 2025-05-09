@@ -6,5 +6,37 @@
 
 In this project, I will be building a firewall. The goal is to define a set of rules for the firewall, generate random IP numbers, then apply the rule and set the actions for the firewall.
 
+#'Random': To generate different items.
+import random
 
+#Generate random IP address. 
+def random_ip_address():
+    return f"10.12.2.{random.randint(0,255)}"
+
+#Check if any of the IP addresses matches the rule and return the corresponding action
+def check_firewall_rules(ip, rules):
+    for rule_ip, action in rules.items():
+        if ip == rule_ip:
+            return action
+    return "allow"
+
+#Set firewall rules with predefine rules where we match the IP address to block or allow with the action.
+def main():
+    firewall_rules = {
+        "10.12.2.1": "Allow",
+        "10.12.2.2": "Allow",
+        "10.12.2.24": "Block",
+        "10.12.2.128": "Block",
+        "10.12.2.255": "Allow",
+    }
+
+#Simulate network traffic by generating 20 random IP addresses and checking them against the firewall rules
+    for _ in range(20):
+        ip_address = random_ip_address()
+        action = check_firewall_rules(ip_address, firewall_rules)
+        random_number = random.randint(0,9999)
+        print(f"IP: {ip_address}, Action: {action}, Random: {random_number}")
+
+if __name__ == "__main__":
+    main()
 
